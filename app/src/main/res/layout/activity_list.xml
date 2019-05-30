@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="377dp"
+        android:layout_height="461dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="10dp"
+        android:clipToPadding="false"
+        android:fillViewport="false"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="157dp">
+
+            <Button
+                android:id="@+id/butt1"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@android:color/holo_red_dark"
+                android:text="Castle"
+                android:textAllCaps="false"
+                android:textColor="#FDFDFD"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt2"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="Roll"
+                android:textAllCaps="false"
+                android:textColor="#FCFCFC"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt3"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@android:color/holo_purple"
+                android:text="Some"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt4"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@android:color/holo_green_dark"
+                android:text="Monster"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt5"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="#8e2222"
+                android:text="Rap God"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt6"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Ashiq Tera"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt7"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="#997eaf"
+                android:text="Bhool Bhulaiyaa"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt8"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:background="@android:color/darker_gray"
+                android:text="Dhokha Dhadi"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt9"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:background="#0696cb"
+                android:text="Khaab"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt10"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Mitwa"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt11"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:background="@android:color/holo_red_light"
+                android:text="Noore Khuda"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt12"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:background="@color/colorPrimary"
+                android:text="Rang De"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt13"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@color/colorAccent"
+                android:text="Castle of Glass"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/butt14"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="#01c3e1"
+                android:text="Animals"
+                android:textAllCaps="false"
+                android:textColor="#F7FFFFFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:text="Favourite Songs"
+        android:textColor="#070707"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+</android.support.constraint.ConstraintLayout>
